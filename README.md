@@ -86,6 +86,13 @@ npm run pack:check
 | `--json` | false | JSON output |
 | `--include-all-models` | false | Import every model from OpenCode |
 
+## Roadmap
+
+- Publish to npm
+- Integrate with DSH main Web UI
+- Full tool-call protocol support
+- More provider discovery sources
+
 ## License
 
 MIT

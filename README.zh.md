@@ -92,3 +92,11 @@ npm run pack:check
 | `--dry-run` | false | 预览不写入 |
 | `--json` | false | JSON 输出 |
 | `--include-all-models` | false | 导入 OpenCode 全部模型 |
+
+
+## 路线图
+
+- 发布到 npm
+- 集成 DSH 主 Web UI
+- 完整 tool-call 协议支持
+- 更多模型发现来源
