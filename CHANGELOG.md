@@ -15,6 +15,7 @@ All notable changes to this project will be documented in this file.
 - Bilingual docs
 - CI / Dependabot / CODEOWNERS
 - Smoke test
+- Smoke test version check
 ## [0.2.0] - 2026-08-26
 
 - Native Cordis plugin implementation
