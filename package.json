@@ -31,5 +31,8 @@
     "url": "https://github.com/XucroYuri/dsh-opencode-sync/issues"
   },
   "homepage": "https://github.com/XucroYuri/dsh-opencode-sync#readme",
-  "author": "XucroYuri"
+  "author": "XucroYuri",
+  "publishConfig": {
+    "access": "public"
+  }
 }
