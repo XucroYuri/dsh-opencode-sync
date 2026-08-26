@@ -37,5 +37,8 @@
   },
   "bin": {
     "dsh-opencode-sync": "bin/dsh-opencode-sync.js"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
