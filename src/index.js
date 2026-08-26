@@ -155,6 +155,13 @@ function buildProfiles(models, providerRef, existingProviders, preferredModels, 
 
 export async function apply(ctx) {
   const args = ctx.get('cmdlineArgs')?.get() ?? []
+  if ((args[0] === 'opencode-sync') && (args.includes('--version') || args.includes('-v'))) {
+    const pkg = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'))
+    console.log(pkg.version)
+    const exit = ctx.get('appExit')
+    if (exit) exit(0)
+    return
+  }
   if (args[0] !== 'opencode-sync') return
 
   const exit = ctx.get('appExit')
