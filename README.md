@@ -97,6 +97,10 @@ npm run pack:check
 
 See [examples/](examples/) for runnable demos.
 
+## Support
+
+If you find this project useful, consider [sponsoring](https://github.com/sponsors/XucroYuri).
+
 ## License
 
 MIT
