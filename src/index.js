@@ -210,10 +210,14 @@ export async function apply(ctx) {
     const providers = buildProfiles(models, providerRef, existingProviders, preferredModels, includeAll)
 
     if (dryRun) {
-      console.log('# Would write credentials refs:')
-      console.log(JSON.stringify(refs, null, 2))
-      console.log('# Would write llm-pi-ai providers:')
-      console.log(JSON.stringify(providers, null, 2))
+      if (args.includes('--json')) {
+        console.log(JSON.stringify({ refs, providers }, null, 2))
+      } else {
+        console.log('# Would write credentials refs:')
+        console.log(JSON.stringify(refs, null, 2))
+        console.log('# Would write llm-pi-ai providers:')
+        console.log(JSON.stringify(providers, null, 2))
+      }
       finish(0); return
     }
 
