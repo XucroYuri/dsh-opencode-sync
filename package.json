@@ -1,0 +1,17 @@
+{
+  "name": "@xucroyuri/dsh-opencode-sync",
+  "version": "0.1.0",
+  "description": "Sync OpenCode provider config into DeepSeek Harness",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "specs",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT"
+}
