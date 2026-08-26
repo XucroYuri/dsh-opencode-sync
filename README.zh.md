@@ -28,6 +28,13 @@
 ```bash
 cd ~/.dsh/profiles/tools
 npm install @xucroyuri/dsh-opencode-sync
+
+
+Or install directly from GitHub:
+
+```bash
+npm install github:XucroYuri/dsh-opencode-sync
+```
 ```
 
 然后在 `cordis.patch.yml` 中添加：
