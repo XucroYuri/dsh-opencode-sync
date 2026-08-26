@@ -1,7 +1,7 @@
 {
   "name": "@xucroyuri/dsh-opencode-sync",
   "version": "0.2.0",
-  "description": "Sync OpenCode provider config into DeepSeek Harness",
+  "description": "Sync OpenCode provider configurations, credentials, and model metadata into DeepSeek Harness.",
   "type": "module",
   "main": "src/index.js",
   "exports": {
@@ -13,5 +13,23 @@
     "README.md",
     "LICENSE"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "opencode",
+    "llm",
+    "provider",
+    "sync",
+    "credentials"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XucroYuri/dsh-opencode-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/XucroYuri/dsh-opencode-sync/issues"
+  },
+  "homepage": "https://github.com/XucroYuri/dsh-opencode-sync#readme",
+  "author": "XucroYuri"
 }
