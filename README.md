@@ -74,6 +74,16 @@ npm run smoke
 npm run pack:check
 ```
 
+## Configuration
+
+| Option | Default | Description |
+|---|---|---|
+| `--source` | `auto` | OpenCode config source: `windows`, `wsl`, `auto` |
+| `--dsh-home` | `~/.dsh` | DSH home directory |
+| `--dry-run` | false | Preview changes without writing |
+| `--json` | false | JSON output |
+| `--include-all-models` | false | Import every model from OpenCode |
+
 ## License
 
 MIT

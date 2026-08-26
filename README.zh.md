@@ -80,3 +80,13 @@ npm test
 npm run smoke
 npm run pack:check
 ```
+
+## 配置
+
+| 参数 | 默认值 | 说明 |
+|---|---|---|
+| `--source` | `auto` | OpenCode 配置来源：`windows`、`wsl`、`auto` |
+| `--dsh-home` | `~/.dsh` | DSH 主目录 |
+| `--dry-run` | false | 预览不写入 |
+| `--json` | false | JSON 输出 |
+| `--include-all-models` | false | 导入 OpenCode 全部模型 |
