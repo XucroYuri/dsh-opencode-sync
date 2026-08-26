@@ -1,5 +1,7 @@
 # dsh-opencode-sync
 
+![CI](https://github.com/XucroYuri/dsh-opencode-sync/actions/workflows/ci.yml/badge.svg) ![License](https://img.shields.io/github/license/XucroYuri/dsh-opencode-sync)
+
 Sync OpenCode provider configurations, credentials, and model metadata into DeepSeek Harness.
 
 > Status: Stable

@@ -1,5 +1,7 @@
 # dsh-opencode-sync
 
+![CI](https://github.com/XucroYuri/dsh-opencode-sync/actions/workflows/ci.yml/badge.svg) ![License](https://img.shields.io/github/license/XucroYuri/dsh-opencode-sync)
+
 将 OpenCode 的模型供应商配置、凭据和模型元数据同步到 DeepSeek Harness。
 
 > 状态：稳定
