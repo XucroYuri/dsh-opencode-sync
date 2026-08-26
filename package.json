@@ -34,5 +34,8 @@
   "author": "XucroYuri",
   "publishConfig": {
     "access": "public"
+  },
+  "bin": {
+    "dsh-opencode-sync": "bin/dsh-opencode-sync.js"
   }
 }
